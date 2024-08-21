@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import Navbar from "../../components/navbar/Navbar";
 
 const Account = () => {
-  return (
-    <div>Account</div>
-  )
-}
+  return <Navbar />;
+};
 
-export default Account
+export default Account;
