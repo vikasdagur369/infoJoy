@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import Navbar from "../../components/navbar/Navbar";
 
 const Campaign = () => {
-  return (
-    <div>Campaign</div>
-  )
-}
+  return <Navbar />;
+};
 
-export default Campaign
+export default Campaign;
